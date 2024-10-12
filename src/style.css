@@ -1,0 +1,111 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.cv-container {
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    border: 2px solid #3498db;
+}
+
+h1, h2, h3, h4 {
+    margin-bottom: 10px;
+    color: #2c3e50;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 22px;
+    color: #7f8c8d;
+}
+
+h3 {
+    font-size: 20px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+h4 {
+    font-size: 18px;
+    color: #34495e;
+    margin-bottom: 5px;
+}
+
+p {
+    margin: 0 0 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+header .profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile-picture {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 3px solid #3498db;
+}
+
+.contact-info {
+    max-width: 600px;
+}
+
+.contact-info h1 {
+    margin-bottom: 5px;
+    font-size: 32px;
+}
+
+.contact-info h2 {
+    font-size: 18px;
+    color: #7f8c8d;
+}
+
+.job {
+    margin-bottom: 25px;
+}
+
+.skills ul {
+    columns: 2;
+    padding: 0;
+}
+
+.skills li {
+    margin-bottom: 10px;
+}
+
+.school {
+    margin-bottom: 20px;
+}
+
+.hobbies {
+    margin-top: 25px;
+    padding: 10px 0;
+}
